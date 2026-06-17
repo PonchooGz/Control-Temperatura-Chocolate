@@ -1,6 +1,6 @@
-# Sistema de Control Térmico para Atemperado de Chocolate 🍫
+# Sistema de Control Térmico para Atemperado de Chocolate 
 
-Este repositorio contiene los códigos fuente en MicroPython y los scripts de análisis en MATLAB desarrollados para el proyecto de Control Avanzado (Semestre 2026A - UAEMex). El objetivo del sistema es gobernar la inercia térmica de un baño maría para mantener el chocolate de cobertura dentro de un rango seguro (48°C - 50°C), evitando la ebullición del agua.
+Este repositorio contiene los códigos fuente en MicroPython y los scripts de análisis en MATLAB desarrollados para el proyecto de Control Avanzado (Semestre 2026A - UAEMex). El objetivo del sistema es gobernar la inercia térmica de un baño maría para mantener el chocolate sobre los 50ºC, evitando la ebullición del agua.
 
 **Integrantes del Equipo:**
 * Alfonso Ramírez González
@@ -9,7 +9,7 @@ Este repositorio contiene los códigos fuente en MicroPython y los scripts de an
 
 ---
 
-## 📁 Estructura del Repositorio
+##  Estructura del Repositorio
 
 El proyecto se divide en dos fases de desarrollo correspondientes a las entregas de la asignatura:
 
@@ -28,7 +28,7 @@ Contiene la evolución del sistema utilizando controladores continuos y un senso
 
 ---
 
-## ⚙️ Reproducibilidad y Ejecución
+##  Reproducibilidad y Ejecución
 
 Para reproducir los controladores:
 1. Conectar el sensor DS18B20 al pin GPIO 4 (con resistencia pull-up de 4.7kΩ) y el SSR al pin GPIO 2 del ESP32.
